@@ -1,10 +1,12 @@
-#Spaceship Titanic Challenge Submission
+Hey Git!
+
 This repository contains my solution to the Spaceship Titanic Kaggle challenge. The notebook covers comprehensive Exploratory Data Analysis (EDA), robust feature engineering, and machine learning modeling.
 
 Key Details:
 
-Model: Random Forest Classifier
-Accuracy Score on Validation Set: 0.79
+Model: XGBoost Classifier
+Validation Strategy: Stratified K-Fold Cross-Validation (5 folds)
+Mean Accuracy Score: 0.80313
 
 Summary:
-After extensive data cleaning, feature engineering, and careful model tuning, my final model achieved an accuracy score of 0.79 on the hold-out validation set. All preprocessing steps and modeling code are provided for reproducibility.
+After thorough data preprocessing and feature engineering, I trained an XGBoost model with carefully tuned hyperparameters. The model was evaluated using Stratified K-Fold Cross-Validation to ensure robustness and reduce variance due to class imbalance. It achieved a strong average validation accuracy of 0.80313 across all folds. All steps, from preprocessing to modeling, are included for full reproducibility.
